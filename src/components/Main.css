@@ -1,0 +1,29 @@
+main{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.main{
+    min-width: 420px;
+    width: 100%;
+    animation: none;
+}
+
+.icon{
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+}
+
+.icon:before{
+    width: 400px;
+    height: 40px;
+    background: red;
+    position: absolute;
+    top: -10px;
+}
